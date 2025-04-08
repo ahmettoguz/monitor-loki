@@ -1,4 +1,4 @@
-<h1 id="top" align="center">Monitor Loki</h1>
+<h1 id="top" align="center">Monitor Loki <br/> 🚢 v1.0.0 🚢</h1>
 
 <br>
 
@@ -10,35 +10,8 @@
 
 ## 🔍 Table of Contents
 
-- [About Project](#intro)
-- [Dashboard](#dashboard)
-- [Technologies](#technologies)
 - [Features](#features)
-- [Releases](#releases)
 - [System Startup](#system-startup)
-- [Contributors](#contributors)
-
-<br/>
-
-<h2 id="intro">📌 About Project</h2>
-
-This project simplifies the deployment of Loki, a log aggregation system, using Docker Compose. It includes a pre-configured setup for scraping logs from Promtail and integrates with Grafana for visualization.
-
-<br/>
-
-<h2 id="dashboard">🔥 Dashboard</h2>
-
-<div align="center">
-    <img width=800 src="assets/dashboard/dashboard.png">
-</div>
-
-<br/>
-
-<h2 id="technologies">☄️ Technologies</h2>
-
-&nbsp; [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com)
-
-&nbsp; [![Loki](https://img.shields.io/badge/Loki-F2F4F9?style=for-the-badge&logo=grafana&logoColor=orange&labelColor=F2F4F9)](https://grafana.com/docs/loki/latest/send-data/Loki)
 
 <br/>
 
@@ -52,12 +25,6 @@ This project simplifies the deployment of Loki, a log aggregation system, using 
 - **Traefik Integration:** Promtail collects logs directly from Traefik, enabling easy monitoring of your reverse proxy activity.
 - **Loki Integration:** Logs are pushed to Loki, which store logs and serves to Grafana to create visually appealing dashboards.
 - **Grafana Integration:** Promtail integrates smoothly with Grafana for visualizing access logs.
-
-<br/>
-
-<h2 id="releases">🚢 Releases</h2>
-
-&nbsp; [![.](https://img.shields.io/badge/1.0.0-233838?style=flat&label=version&labelColor=111727&color=1181A1)](https://github.com/ahmettoguz/monitor-loki/tree/v1.0.0)
 
 <br/>
 
@@ -106,9 +73,5 @@ docker logs -f                          monitor-loki-c
 - Refer to [`Grafana`](https://github.com/ahmettoguz/monitor-grafana) repository to integrate grafana to visualize logs and metrics.
 
 <br/>
-
-<h2 id="contributors">👥 Contributors</h2>
-
-<a href="https://github.com/ahmettoguz" target="_blank"><img width=60 height=60 src="https://avatars.githubusercontent.com/u/101711642?v=4"></a>
 
 ### [🔝](#top)
