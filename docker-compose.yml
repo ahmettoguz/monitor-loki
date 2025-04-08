@@ -1,0 +1,19 @@
+####################################### Services
+services:
+  loki:
+    image: grafana/loki
+    container_name: monitor-loki-c
+    command: -config.file=/etc/loki/config.yml
+    volumes:
+      - ./config.yml:/etc/loki/config.yml
+      - ./mount:/loki
+    networks:
+      - network-monitor
+    restart: always
+    # ports:
+    #   - "3100:3100"
+
+####################################### Networks
+networks:
+  network-monitor:
+    external: true
