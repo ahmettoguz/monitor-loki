@@ -11,6 +11,7 @@ services:
       - network-monitor
     restart: always
     user: root
+    privileged: true
     # ports:
     #   - "3100:3100"
 
@@ -18,3 +19,5 @@ services:
 networks:
   network-monitor:
     external: true
+
+
