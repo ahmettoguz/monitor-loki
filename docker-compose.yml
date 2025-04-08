@@ -10,6 +10,7 @@ services:
     networks:
       - network-monitor
     restart: always
+    user: root
     # ports:
     #   - "3100:3100"
 
