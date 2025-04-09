@@ -44,13 +44,6 @@ git clone https://github.com/ahmettoguz/monitor-loki
 cd monitor-loki
 ```
 
-- Create `mount` directory and change file permissions.
-
-```
-mkdir mount
-chown -R 10001:10001 mount
-```
-
 - Create `network-monitor` network if not exists.
 
 ```
