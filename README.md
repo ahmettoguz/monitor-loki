@@ -81,7 +81,7 @@ cd monitor-loki
 
 ```
 mkdir mount
-chown -R 10001:10001 mount
+chmod 777 mount
 ```
 
 - Create `network-monitor` network if not exists.
