@@ -7,9 +7,9 @@ services:
     volumes:
       - ./config.yml:/etc/loki/config.yml
       # - ./mount:/loki
+      - ./mount:/ahmet
     networks:
       - network-monitor
-
     # restart: always
     # ports:
     #   - "3100:3100"
