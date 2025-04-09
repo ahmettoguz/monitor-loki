@@ -6,7 +6,7 @@ services:
     command: -config.file=/etc/loki/config.yml
     volumes:
       - ./config.yml:/etc/loki/config.yml
-      - ./mount:/loki
+      # - ./mount:/loki
     networks:
       - network-monitor
     # restart: always
