@@ -9,7 +9,7 @@ services:
       - ./mount:/loki
     networks:
       - network-monitor
-    restart: always
+    # restart: always
     # ports:
     #   - "3100:3100"
 
