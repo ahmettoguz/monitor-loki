@@ -7,7 +7,7 @@ services:
     volumes:
       - ./config.yml:/etc/loki/config.yml
       # - ./mount:/loki
-      - ./mount:/ahmet
+      - ./mount:/ahmet:z
     networks:
       - network-monitor
     # restart: always
