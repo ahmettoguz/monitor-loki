@@ -1,16 +1,16 @@
 ####################################### Services
 services:
-  loki:
+  service-loki:
     image: ahmettoguz/loki:3.4
-    container_name: monitor-loki-c
+    container_name: container-loki
     command: -config.file=/etc/loki/config.yml
     volumes:
       - ./config.yml:/etc/loki/config.yml
-      - ./mount:/loki
+      - volume-loki:/loki
     networks:
       - network-monitor
     user: root
-    restart: always
+    restart: ${RESTART_POLICY}
     # ports:
     #   - "3100:3100"
 
@@ -18,3 +18,8 @@ services:
 networks:
   network-monitor:
     external: true
+
+####################################### Volumes
+volumes:
+  volume-loki:
+    name: volume-loki
