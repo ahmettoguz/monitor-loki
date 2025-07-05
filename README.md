@@ -44,10 +44,17 @@ git clone https://github.com/ahmettoguz/monitor-loki
 cd monitor-loki
 ```
 
+- Switch version.
+
+```
+git checkout v1.1.1
+```
+
 - Create `.env` file based on the `.env.example` file with credentails and configurations.
 
 ```
 cp .env.example .env
+nano .env
 ```
 
 - Create `network-monitor` network if not exists.
