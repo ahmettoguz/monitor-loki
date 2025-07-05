@@ -1,4 +1,4 @@
-<h1 id="top" align="center">Monitor Loki <br/> 🚢 v1.1.0 🚢</h1>
+<h1 id="top" align="center">Monitor Loki <br/> 🚢 v1.1.1 🚢</h1>
 
 <br>
 
