@@ -59,6 +59,8 @@ This project simplifies the deployment of Loki, a log aggregation system, using 
 
 <h2 id="releases">🚢 Releases</h2>
 
+&nbsp; [![.](https://img.shields.io/badge/1.1.1-233838?style=flat&label=version&labelColor=111727&color=1181A1)](https://github.com/ahmettoguz/monitor-loki/tree/v1.1.1)
+
 &nbsp; [![.](https://img.shields.io/badge/1.1.0-233838?style=flat&label=version&labelColor=111727&color=1181A1)](https://github.com/ahmettoguz/monitor-loki/tree/v1.1.0)
 
 &nbsp; [![.](https://img.shields.io/badge/1.0.0-233838?style=flat&label=version&labelColor=111727&color=1181A1)](https://github.com/ahmettoguz/monitor-loki/tree/v1.0.0)
@@ -81,10 +83,17 @@ git clone https://github.com/ahmettoguz/monitor-loki
 cd monitor-loki
 ```
 
+- Switch version.
+
+```
+git checkout v1.1.1
+```
+
 - Create `.env` file based on the `.env.example` file with credentails and configurations.
 
 ```
 cp .env.example .env
+nano .env
 ```
 
 - Create `network-monitor` network if not exists.
